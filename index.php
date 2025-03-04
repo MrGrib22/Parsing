@@ -1,10 +1,3 @@
-<?php
-
-require_once 'CurlContentFactory.php';
-require_once 'FileGetContentFactory.php';
-
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>

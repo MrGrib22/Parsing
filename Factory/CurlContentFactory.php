@@ -1,7 +1,7 @@
 <?php
 
 require_once 'Interface/Factory.php';
-require_once 'CurlContentFetch.php';
+require_once 'Fetch/CurlContentFetch.php';
 
 class CurlContentFactory implements Factory
 {

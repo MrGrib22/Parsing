@@ -1,7 +1,8 @@
 <?php
 
-require_once 'CurlContentFactory.php';
-require_once 'FileGetContentFactory.php';
+require_once 'Factory/CurlContentFactory.php';
+require_once 'Factory/FileGetContentFactory.php';
+ini_set('display_errors', 0);
 
 try {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
